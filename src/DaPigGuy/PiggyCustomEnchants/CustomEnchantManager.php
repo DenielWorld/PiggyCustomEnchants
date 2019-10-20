@@ -221,7 +221,7 @@ class CustomEnchantManager
         self::$enchants[$enchant->getId()] = $enchant;
         Enchantment::registerEnchantment($enchant);
 
-        self::$plugin->getLogger()->debug("Custom Enchantment '" . $enchant->getName() . "' registered with id " . $enchant->getId());
+        //self::$plugin->getLogger()->debug("Custom Enchantment '" . $enchant->getName() . "' registered with id " . $enchant->getId());
     }
 
     /**
